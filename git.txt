@@ -1,0 +1,21 @@
+git config -l
+git log - show commit message
+git show (paste hash form git log)
+vi index.js - modifying index.js file
+git diff - gives the difference between what you have in the current working directory and what has been commited
+git restore (file name) - restores a deleted file
+git commit --amend -m"commit message"
+git pull
+branch - represents an independ line of development
+default git branches - main and master branch
+git branch -r - returns remote branch
+git branch -a - returns all branches
+
+creating a new branch
+//git branch (name of new branch)
+//git checkout (name of branch) - switches to the specified branch
+//git checkout - (switches back to the previous branch)
+//git push -u origin main (name of branch) - pushes the branch 
+//git checkout -b (name of branch) - creates and switches to a new branch
+// git branch -d (name of branch to be deleted)
+
