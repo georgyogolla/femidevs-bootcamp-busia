@@ -1,0 +1,90 @@
+//ACCESSING TEXTS IN AN ELEMENT
+//.innerText - aware of what is supposed to be printed on the web page - used most of the time .
+//.textContent - doesn't care , prints even the hidden content.
+//.innerHTML 
+//inputs[x].value
+//a.href
+//const range = document.querySelector('input[type="range"]')
+//range.getAttribute('max')//reurnsthe value of the max key .
+//range.setAttribute('min', '-200');
+//range.setAttribute('type', 'radio')//changes input type 
+
+//ACCESSING PARENT , CHILDREN AND SIBLING ELEMENTS . 
+- .parentElement
+- .children 
+- .nextSibling 
+- .previousSibling 
+
+//LOOPING OVER DOM ELEMENTS document.const allLis = querySelector('li');
+for(let li of allLis){
+  li.innerHTML = 'WE ARE <b>THE CHAMPIONS</b>
+}
+
+//CHANGING ELEMENTS USING JAVASCRIPT 
+style property only contains styles that you have set inline and not internal or external styles 
+const h1 = document.querySelector('h1);
+h1.style - //returns an empty string if the document contains internal styles or external styles 
+h1.style.color = 'red' 
+h1.style.backgroundColor = 'white';
+
+//if i had an array of different colors and wanted to style a list(ul - li) using the colors in the array, this is how i would do it 
+const changeColors = document.querySelectorAll('li');
+//create an array of colors 
+const colors = ['red', 'pink', 'yellow', 'green', 'blue', 'purple']
+- use forEach() to iterate over the array 
+changeColors.forEach(el, i) => {
+  //el - represents the selected dom elements 
+  //i - repesents index of the elements 
+  const color = colors[i];
+  el.style.color = color;
+  //console.log(el, i);
+}
+
+//getComputedStyle 
+// computedStyle might come from javaScript or Extrenal CSS file 
+const h1 = document.querySelector('h1');
+const compStyle = getComputedStyle(h1);
+compStyles.color // prints color 
+compStyles.fontSize // returns the font size of h1 
+
+
+ //BETTER WAY TO ADD MULTIPLE STYLES AT ONCE USING DOM 
+ .classList.add('your class');
+ .classList.remove('your class');
+ .classList.toggle('your class');
+
+//CREATING AND APPENDING ELEMENTS 
+const newH2 = document.createElement('h2');
+// - add content to newH2
+newH2.innerText = 'i like manchester united';
+
+//create a class fo newH2
+newH2.classList.add('special');
+
+//append the an element to another element 
+const section = document.querySelector('section');
+section.appendChild(newH2);
+
+//append - adds multiple elements to the beginning of a selected element 
+//prepend - adds multiple elements to the end of a selected element 
+//inserrtBefore - inserts to the beginning of a selected element
+
+//const i = document.createElement('i');
+// i.innerText = 'I am italics';
+//const firstP = document.querySelector('p');
+//firstP.insertAdjacentElement('beforebegin', i) - inserts i element before p element - nicer way of inserting elements 
+
+//firstP.insertAdjacentElement('afterend', i) - inserts i element after p element - nicer way of inserting elements 
+
+//firstP.insertAdjacentElement('afterbegin', i) - goes inside the p element in the beginning of the paragraph
+
+//firstP.insertAdjacentElement('beforeend', i) - goes inside the p element at the end of the paragraph 
+
+// .removeChild();
+// .remove();
+
+
+ 
+
+
+

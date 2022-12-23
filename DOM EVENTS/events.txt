@@ -1,0 +1,8 @@
+// Events allows us to respond to user inputs and actions 
+
+//EVENTS FORMAT 
+
+//the thing             event type                 the code to run 
+//button                click                    change color 
+//input                 hits return              get search results 
+//image                 mouseover                display the img 
