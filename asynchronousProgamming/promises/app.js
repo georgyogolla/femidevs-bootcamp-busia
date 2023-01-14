@@ -92,7 +92,7 @@ const fakeRequest = (url) => {
 };
 
 fakeRequest('/users').then((res) => {
-  console.log('Status Code', res.status);
+  console.log('  Code', res.status);
   console.log('Data', res.data);
 }).catch((res) => {
   console.log(res.status);
