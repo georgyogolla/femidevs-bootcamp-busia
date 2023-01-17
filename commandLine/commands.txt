@@ -1,0 +1,24 @@
+here is a website to learn more commands - > www.learnenough.com
+
+// These commands can be used in UNIX based opeating systems e.g Linux OS, macOS and for windows you have to download git bash in order to use these commands 
+
+1. ls -a // lists all files 
+2. mkdir george // creates a folder/directory called georgy
+3. cd Documents  // switch to a diffeent directory / folder 
+4. cd ~   // takes you back to your root directory / folder 
+5. up arrow button  // returns the last command you used in your teminal 
+6.  cd ..  // takes you back one level 
+7.  ctr + A // move to beginning of line  
+8.  ctrl + E  // move to end of line 
+9.  ctrl + U  // delete to beginning of line 
+10. touch text2.txt // create a new text file 
+11. open text2.txt // opens the specified file 
+12. start text2.txt // for windows users 
+13. rm text.rtf // removes/ deletes a file
+13. pwd  // gives you your entire path and your curent folder
+14. rm * // deletes all files in a specified directory 
+15. rm -r  georgy  // allows you to remove a directory / folder including the child directories and all the files 
+15. echo hello world  // print your first hello world on the terminal 
+16. man echo   // prints you the documentation/manual page fo a command 
+17. clear (ctrl + L) // cleans up your command line interface 
+18. exit  (ctrl + D) // cleans up your command line interface
