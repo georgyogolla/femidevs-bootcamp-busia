@@ -1,0 +1,38 @@
+ADVANCED OOP CONCEPTS IN JAVASCRIPT 
+
+1. Encapsulation - :
+  -The process of hiding implementation details of an object from other objects.
+  -A closure is a function that has acces to the variables in its parent scope , even after the parent function has returned .
+  -Can be achieved using closures and the module pattern .
+
+2. Polymorphism -: 
+  -The ability of an object to take on many forms .
+  -Can be achieved by using function overloading and function overriding .
+
+3. Abstraction -: 
+  -Process of simplifying complex systems by identifying the essential features of an object 
+  and ignoring the non-essential details.
+  -can be achieved by using inheritance and interfaces 
+
+4. Design patterns :-
+  -Reusable solutions to common programming problems .
+  -Popular design patterns in javaScript include :-
+    -> The observer pattern 
+    -> The factory pattern
+    -> The decorator pattern 
+
+5. Classes and prototypes :-
+  -Classes are a way to create objects with a specific blueprint and they are based on prototypes .
+  -Classes and prototypes are the core concepts of oop in javascript 
+
+6. Getters and Setters :- 
+  -Used to create the properties that can only be read or written by certain methods .
+  -This can be used to validate data before it set , or to update other properties when a property is changed .
+
+7. Property descriptors :- 
+  -Used to define properties in javaScript.
+  -It allows to set properties like writable , enumerable and configurable .
+
+8. Symbols : -
+  -Can be used as an object property keys. 
+  -
